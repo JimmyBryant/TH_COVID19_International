@@ -3,7 +3,7 @@ const { BASE_URL } = require('./src/config/constant')
 const isBuild = process.env.CDN_ENV !== 'development'
 
 module.exports = {
-    publicPath: isBuild ? `//static.wecity.qq.com/${BASE_URL}` : BASE_URL,
+    publicPath: isBuild ? `//th.ncov19.top/${BASE_URL}` : BASE_URL,
     devServer: {
         disableHostCheck: true
     },

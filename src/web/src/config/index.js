@@ -13,9 +13,10 @@ import { getEnv } from '@/utils'
 
 let env = getEnv()
 const baseURLMap = {
-    development: 'https://ehcard-test.wecity.qq.com',
+    // development: 'https://ehcard-test.wecity.qq.com',
+    development: 'http://127.0.0.1:10169',
     pre: 'https://ehcard-test.wecity.qq.com',
-    production: 'https://wechat.wecity.qq.com'
+    production: 'http://api.ncov19.top'
 }
 export const baseURL = baseURLMap[env]
 
