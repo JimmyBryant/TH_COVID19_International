@@ -1,8 +1,8 @@
 //DB配置
 {
     user: "root",
-    password: "54893416a",
+    password: "",
     host: "127.0.0.1",
-    port: "3389",
+    port: "3306",
     database: "db_epidemic"
 }
