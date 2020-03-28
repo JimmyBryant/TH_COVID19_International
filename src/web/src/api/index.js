@@ -6,7 +6,7 @@ const env = getEnv()
 
 const baseURLMap = {
     development: 'http://127.0.0.1:10169/ncovh5api',
-    pre: 'http://127.0.0.1:10169/ncovh5api',
+    pre:'https://mitest.wecity.qq.com/ncovh5api',
     production: 'http://api.ncov19.top/ncovh5api'
 }
 
